@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +14,7 @@ body {
     width: 100%;
     height: 100vh; 
     background: url("./img/B1.png");
-    background-color: #333;
+    background-color: #fff;
     background-repeat: no-repeat;
     background-size: fixed;
     padding-left: 47%;
@@ -24,7 +26,7 @@ body {
     display: flex;
     align-items: center;
     height: 100vh;
-    /* color: #fff; */ color: #ff3838;
+    /* color: #fff; */ color: rgb(255, 94, 0);
 }
 
 .container {
@@ -38,17 +40,68 @@ body {
 }
 .banner__text h3 {
     font-size: 30px;
-    color: rgb(202, 248, 149);
+    color: #333;
 }
 .banner__text h1 {
     font-size: 50px;
     line-height: 80px;
-    font-weight: 700;
+    font-weight: 900;
     margin-top: 20px;
 }
 .banner__text p {
     font-size: 20px;
     font-weight: 300;
     margin-top: 20px;
-    color: lightsalmon;
+    color: rgb(247, 150, 71);
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar__text {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar__ul {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar__ul li a {
+    text-decoration: none;
+    color: rgb(255, 94, 0);
+    padding: 0 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.banner__btn {
+    margin-top: 35px;
+}
+
+
+.btn {
+    text-decoration: none;
+    border: none;
+    outline: none;
+    color: #333;
+    font-weight: 700;
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 15px 30px;
+    margin: 2%;
+}
+
+.btn-smart {
+    background: rgb(247, 150, 71);
 }
