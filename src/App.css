@@ -105,3 +105,57 @@ body {
 .btn-smart {
     background: rgb(247, 150, 71);
 }
+
+.about {
+    padding: 80px 0;
+}
+
+.p-25 {
+    padding: 45px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-6 {
+    width: 50%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33333333333333%;
+}
+.about h3 {
+    color: rgba(37, 37, 37, 0.7);
+    font-size: 30px;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+.about h1 {
+    font-size: 40px;
+    color: #252525;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+.about p {
+    font-size: 18px;
+    color: #8b8b8b;
+    font-weight: 300;
+}
+
+.about__btn {
+    margin-top: 35px;
+}
+.about__img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.about__img img {
+    width: 100%;
+}
