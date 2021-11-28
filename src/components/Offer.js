@@ -1,7 +1,7 @@
 
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import pic1 from "/components/img/food1.png";
+import pic1 from "../img/food1.png";
 
 import React, { Component } from "react";
 import Slider from "react-slick";
