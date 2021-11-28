@@ -159,7 +159,7 @@ body {
     align-items: center;
     padding:  10px 20px;
     box-sizing: border-box;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Nunito', sans-serif;
   }
   
   .type{
@@ -179,7 +179,7 @@ body {
     color: black;
     font-weight: 400;
     font-size: 1.1rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Nunito', sans-serif;
     letter-spacing: 0.5px;
   }
   
@@ -206,7 +206,7 @@ body {
     color: #ff6004;
     font-weight: 700;
     letter-spacing: 1px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Nunito', sans-serif;
     border-radius: 5px;
     box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
   }
