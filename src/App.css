@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
@@ -129,8 +130,10 @@ body {
     margin-left: 0;
   }
   
-  hr{
+  .box hr{
     width: 50%;
+    border: 1px solid;
+    margin: auto;
   }
   
   .box{
@@ -165,6 +168,7 @@ body {
   .type{
     display: flex;
     flex-direction: column;
+    
   }
   
   .type a{
@@ -172,7 +176,8 @@ body {
     margin: 5px 0px;
     font-weight: 700;
     letter-spacing: 0.5px;
-    padding-right: 8px;
+    padding-left: 20px;
+    
   }
   
   .price{
@@ -181,6 +186,8 @@ body {
     font-size: 1.1rem;
     font-family: 'Nunito', sans-serif;
     letter-spacing: 0.5px;
+    padding-right: 15px;
+    
   }
   
   .overlayer{
@@ -194,6 +201,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+   
   }
   
   .cart-btn{
@@ -209,6 +217,7 @@ body {
     font-family: 'Nunito', sans-serif;
     border-radius: 5px;
     box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    
   }
   
   .cart-btn:hover{

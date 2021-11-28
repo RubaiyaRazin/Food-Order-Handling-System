@@ -64,6 +64,7 @@ export default class MultipleItems extends Component {
                     <a href="#" className="cart-btn">ADD TO CART</a>
                 </div>
             </div>
+            <hr/>
             <div className="detail-box">
                 <div className="type">
                     <a href="#">Beef Burger</a>
@@ -79,6 +80,7 @@ export default class MultipleItems extends Component {
                     <a href="#" className="cart-btn">ADD TO CART</a>
                 </div>
             </div>
+            <hr/>
             <div className="detail-box">
                 <div className="type">
                     <a href="#">Steak with Fries</a>
@@ -94,6 +96,7 @@ export default class MultipleItems extends Component {
                     <a href="#" className="cart-btn">ADD TO CART</a>
                 </div>
             </div>
+            <hr/>
             <div className="detail-box">
                 <div className="type">
                     <a href="#">Shrimp Pizza</a>
@@ -109,6 +112,7 @@ export default class MultipleItems extends Component {
                     <a href="#" className="cart-btn">ADD TO CART</a>
                 </div>
             </div>
+            <hr/>
             <div className="detail-box">
                 <div className="type">
                     <a href="#">Mushroom Special Pizza</a>
