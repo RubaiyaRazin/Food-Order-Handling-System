@@ -11,6 +11,8 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
+/* ----------Header CSS Starts Here---------- */
+
 .banner {
     width: 100%;
     height: 100vh; 
@@ -55,6 +57,10 @@ body {
     margin-top: 20px;
     color: rgb(247, 150, 71);
 }
+
+/* ----------Header CSS Ends Here---------- */
+
+/* ----------Navbar CSS Starts Here---------- */
 
 .navbar {
     position: absolute;
@@ -106,6 +112,8 @@ body {
 .btn-smart {
     background: rgb(247, 150, 71);
 }
+
+/* ----------Navbar CSS Endss Here---------- */
 
 /*----------Offer CSS Starts Here ----------*/
 
