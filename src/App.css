@@ -128,7 +128,7 @@ body {
     margin-bottom: 0.67em;
     margin-right: 0;
     margin-left: 0;
-    color: #FF6004;
+    color: #FF5E00;
     font-weight: 600px;
     
   }
@@ -219,7 +219,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
-    color: #ff6004;
+    color: #f79647;
     font-weight: 700;
     letter-spacing: 1px;
     font-family: 'Nunito', sans-serif;
@@ -230,7 +230,7 @@ body {
   
   .cart-btn:hover{
     color: #ffffff;
-    background-color:#ff6004;
+    background-color:#f79647;
     transition: all ease 0.5s;
   }
   

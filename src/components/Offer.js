@@ -120,7 +120,7 @@ export default class MultipleItems extends Component {
                 <a href="#" className="price">470.00</a>
             </div>
             </div>
-
+            
         </Slider>
       </div>
     );
