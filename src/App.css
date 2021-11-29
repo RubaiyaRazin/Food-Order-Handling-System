@@ -107,7 +107,7 @@ body {
     background: rgb(247, 150, 71);
 }
 
-/*Offer CSS Starts Here */
+/*----------Offer CSS Starts Here ----------*/
 
 .offer-slide h3{
     text-align: center;
@@ -116,8 +116,9 @@ body {
     margin-bottom: 0.67em;
     margin-right: 0;
     margin-left: 0;
-    font-weight: lighter;
+    font-weight: 700;
     line-height: 0;
+    color: #8b8b8b;
     
   }
   
@@ -253,7 +254,9 @@ body {
   }
   
 
-/*Offer CSS Ends Here */
+/*-----------Offer CSS Ends Here---------- */
+
+/*----------About CSS Starts Here ----------*/
 
 .about {
     padding: 80px 0;
@@ -308,3 +311,107 @@ body {
 .about__img img {
     width: 100%;
 }
+
+/*----------About CSS Ends Here ----------*/
+
+/*----------Footer CSS Starts Here ----------*/
+.container{
+  max-width: 1170px;
+  margin: auto;
+  
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+ul{
+  list-style: none;
+}
+.footer{
+  background-color: #ffffff;
+  padding: 70px 0;
+  
+}
+
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+  
+}
+
+.footer-col h4{
+  font-size: 18px;
+  color: #ff5e00;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 600;
+  position: relative;
+}
+
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #8b8b8b;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 300;
+  color: #8b8b8b;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+  color: #FF5E00;
+  padding-left: 8px;
+  font-weight: bolder;
+}
+
+.footer-col .social-links a{ 
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(0,0,0,0);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 50%;
+  color: #FF5E00;
+  transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+  color: #ffffff;
+  background-color: #ff5e00;
+}
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+  }
+}
+
+/*----------Footer CSS Ends Here ----------*/

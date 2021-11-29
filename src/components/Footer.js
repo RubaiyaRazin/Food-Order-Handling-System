@@ -12,35 +12,34 @@ const Footer = () => {
                 <div className="container">
                     <div className="row">
                         <div className="footer-col">
-                            <h4>Company</h4>
+                            <h4>Customer Support</h4>
                             <ul>
                                 <li><a href="#">About us</a></li>
                                 <li><a href="#">Our Services</a></li>
                                 <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Affiliate program</a></li>
+                                <li><a href="#">Help & Ordering</a></li>
                                 
                             </ul>
                         </div>
 
                         <div className="footer-col">
-                            <h4>Get Help</h4>
+                            <h4>Quick Links</h4>
                             <ul>
-                                <li><a href="#">FAQ</a></li>
-                                <li><a href="#">Shipping</a></li>
-                                <li><a href="#">Returns</a></li>
-                                <li><a href="#">Order Status</a></li>
-                                <li><a href="#">Payment Options</a></li>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Reservation</a></li>
+                                <li><a href="#">Menu</a></li>
+                                <li><a href="#">Offer</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Contact Us</a></li>
                             </ul>
                         </div>
 
                         <div className="footer-col">
-                            <h4>Online Shop</h4>
+                            <h4>Contact Info</h4>
                             <ul>
-                                <li><a href="#">Watch</a></li>
-                                <li><a href="#">Bag</a></li>
-                                <li><a href="#">Shoe</a></li>
-                                <li><a href="#">Dress</a></li>
-                                <li><a href="#">Skincare</a></li>
+                                <li><a href="#">Support@gmail.com</a></li>
+                                <li><a href="#">restaurant@gmail.com</a></li>
+                                <li><a href="#">+01777777777</a></li>
                             </ul>
                         </div>
 
