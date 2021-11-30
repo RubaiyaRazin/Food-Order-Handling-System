@@ -4,12 +4,14 @@ import About from "./components/About";
 import Offer from "./components/Offer";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
+import Reservation from "./components/Reservation";
 
 function App() {
   return (
     <div>
         <Header />
         <Offer />
+        <Reservation/>
         <About />
         <Contact />
         <Footer />
