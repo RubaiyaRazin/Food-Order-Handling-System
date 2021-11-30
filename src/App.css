@@ -130,7 +130,7 @@ body {
     
   }
   
-  .offer-slide h4{
+  .offer-slide h1{
     text-align: center;
     font-size: 2.5em;
     margin-top: 0.67em;
@@ -263,6 +263,84 @@ body {
   
 
 /*-----------Offer CSS Ends Here---------- */
+
+/* ----------Reservation CSS Starts Here---------- */
+.reservation h1{
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-right: 0;
+  margin-left: 0;
+  color: #FF5E00;
+  font-weight: 600px;
+}
+
+.reservation h3{
+  text-align: center;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-right: 0;
+  margin-left: 0;
+  font-weight: 700;
+  line-height: 0;
+  color: #8b8b8b;
+  padding-top: 50px;
+}
+
+.reservation p{
+  font-size: 18px;
+  color: #000000;
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.reservation .form-inline {  
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.reservation .form-inline input {
+  vertical-align: center;
+  margin: 5px 10px 5px 0px;
+  margin-left: 30px;
+  padding: 20px 15px;
+  background-color: #ffffff;
+  border: 1.5px solid #8b8b8b;
+  width:25%
+
+}
+
+.reservation .form-inline button {
+  padding: 20px 15px;
+  background-color: #8b8b8b;
+  border: 1px solid #fff;
+  color: white;
+  cursor: pointer;
+  width: 15%;
+}
+
+.reservation .form-inline button:hover {
+  background-color: #FF5E00;
+  font-weight: bolder;
+  
+}
+
+@media (max-width: 800px) {
+  .reservation .form-inline input {
+    margin: 10px 0;
+  }
+  
+  .reservation .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+/*----------Reservation CSS Ends Here ----------*/
 
 /*----------About CSS Starts Here ----------*/
 
