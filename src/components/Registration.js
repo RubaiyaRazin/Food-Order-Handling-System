@@ -17,19 +17,19 @@ const Registration =()=>{
           </div>
           <div class="reg-input-box">
             <span class="reg-details">Email</span>
-            <input type="text" placeholder="Enter your email" required=""/>
+            <input type="email" placeholder="Enter your email" required=""/>
           </div>
           <div class="reg-input-box">
             <span class="reg-details">Phone Number</span>
-            <input type="text" placeholder="Enter your number" required=""/>
+            <input type="number" placeholder="Enter your number" required=""/>
           </div>
           <div class="reg-input-box">
             <span class="reg-details">Password</span>
-            <input type="text" placeholder="Enter your password" required=""/>
+            <input type="password" placeholder="Enter your password" required=""/>
           </div>
           <div class="reg-input-box">
             <span class="reg-details">Confirm Password</span>
-            <input type="text" placeholder="Confirm your password" required=""/>
+            <input type="password" placeholder="Confirm your password" required=""/>
           </div>
         </div>
         <div class="reg-button">
