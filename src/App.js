@@ -15,9 +15,9 @@ function App() {
         <Navbar />
         <Header />
         <Offer />
-        <Reservation/>
+        <Reservation />
         <Login/>
-        <Registration/>
+        <Registration />
         <About />
         <Contact />
         <Footer />
