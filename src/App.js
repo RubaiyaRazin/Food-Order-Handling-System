@@ -1,4 +1,5 @@
 import './App.css';
+import Navbar from "./components/Navbar";
 import Header from "./components/Header";       // importing Header.js to App.js
 import About from "./components/About";
 import Offer from "./components/Offer";
@@ -11,6 +12,7 @@ import Registration from "./components/Registration";
 function App() {
   return (
     <div>
+        <Navbar />
         <Header />
         <Offer />
         <Reservation/>

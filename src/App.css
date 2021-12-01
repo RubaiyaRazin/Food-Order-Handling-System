@@ -58,6 +58,26 @@ body {
     color: rgb(247, 150, 71);
 }
 
+@media(max-width: 767px){
+  .banner .banner__text{
+    width: 50%;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 300px;
+    padding-top: 80px;
+    padding-bottom: 250px;
+  }
+  .banner__btn{
+    width: 200px;
+  }
+}
+
+@media(max-width: 574px){
+  .banner{
+    width: 100%;
+  }
+}
+
 /* ----------Header CSS Ends Here---------- */
 
 /* ----------Navbar CSS Starts Here---------- */
@@ -96,13 +116,17 @@ body {
     margin-top: 35px;
 }
 
+.btn:hover{
+  font-weight:bolder;
+}
+
 
 .btn {
     text-decoration: none;
     border: none;
     outline: none;
     color: #FFFFFF;
-    font-weight: 700;
+    font-weight: 400;
     border-radius: 30px;
     font-size: 15px;
     padding: 15px 30px;
@@ -110,8 +134,9 @@ body {
 }
 
 .btn-smart {
-    background: rgb(247, 150, 71);
+    background: #FF5E00;
 }
+
 
 /* ----------Navbar CSS Endss Here---------- */
 
@@ -403,6 +428,23 @@ body {
 
 .about__img img {
     width: 100%;
+}
+
+@media(max-width: 767px){
+  .container{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+  .about__btn{
+    width: 200px;
+  }
+}
+
+@media(max-width: 574px){
+  .container{
+    width: 100%;
+  }
 }
 
 /*----------About CSS Ends Here ----------*/
