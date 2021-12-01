@@ -2,64 +2,43 @@ import React from 'react';
 
 const Registration =()=>{
     return(
-    <div class="container">
-    <div class="title">Registration</div>
-    <div class="content">
+    <div class="reg-container">
+      <div class="reg-content">
+        <div class="reg-title"><span>Registration</span></div>
       <form action="#">
-        <div class="user-details">
-          <div class="input-box">
-            <span class="details">Full Name</span>
-            <input type="text" placeholder="Enter your name" required/>
+        <div class="reg-user-details">
+          <div class="reg-input-box">
+            <span class="reg-details">Full Name</span>
+            <input type="text" placeholder="Enter your name" required=""/>
           </div>
-          <div class="input-box">
-            <span class="details">Username</span>
-            <input type="text" placeholder="Enter your username" required/>
+          <div class="reg-input-box">
+            <span class="reg-details">Username</span>
+            <input type="text" placeholder="Enter your username" required=""/>
           </div>
-          <div class="input-box">
-            <span class="details">Email</span>
-            <input type="text" placeholder="Enter your email" required/>
+          <div class="reg-input-box">
+            <span class="reg-details">Email</span>
+            <input type="text" placeholder="Enter your email" required=""/>
           </div>
-          <div class="input-box">
-            <span class="details">Phone Number</span>
-            <input type="text" placeholder="Enter your number" required/>
+          <div class="reg-input-box">
+            <span class="reg-details">Phone Number</span>
+            <input type="text" placeholder="Enter your number" required=""/>
           </div>
-          <div class="input-box">
-            <span class="details">Password</span>
-            <input type="text" placeholder="Enter your password" required/>
+          <div class="reg-input-box">
+            <span class="reg-details">Password</span>
+            <input type="text" placeholder="Enter your password" required=""/>
           </div>
-          <div class="input-box">
-            <span class="details">Confirm Password</span>
-            <input type="text" placeholder="Confirm your password" required/>
-          </div>
-        </div>
-        <div class="gender-details">
-          <input type="radio" name="gender" id="dot-1"/>
-          <input type="radio" name="gender" id="dot-2"/>
-          <input type="radio" name="gender" id="dot-3"/>
-          <span class="gender-title">Gender</span>
-          <div class="category">
-            <label for="dot-1">
-            <span class="dot one"></span>
-            <span class="gender">Male</span>
-          </label>
-          <label for="dot-2">
-            <span class="dot two"></span>
-            <span class="gender">Female</span>
-          </label>
-          <label for="dot-3">
-            <span class="dot three"></span>
-            <span class="gender">Prefer not to say</span>
-            </label>
+          <div class="reg-input-box">
+            <span class="reg-details">Confirm Password</span>
+            <input type="text" placeholder="Confirm your password" required=""/>
           </div>
         </div>
-        <div class="button">
+        <div class="reg-button">
           <input type="submit" value="Register"/>
         </div>
+        <div class="reg-signup-link">Not a member? <a href="#">Signin now</a></div>
       </form>
     </div>
   </div>
-
-    
     );
 };
 

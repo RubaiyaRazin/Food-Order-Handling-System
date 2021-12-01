@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Reservation from "./components/Reservation";
 import Login from "./components/Login";
+import Registration from "./components/Registration";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Offer />
         <Reservation/>
         <Login/>
+        <Registration/>
         <About />
         <Contact />
         <Footer />

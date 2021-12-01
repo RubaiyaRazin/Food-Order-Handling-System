@@ -761,3 +761,124 @@ form .login-signup-link a:hover{
 }
 
 /*----------Login CSS Ends Here ----------*/
+
+/*----------Registration CSS Starts Here ----------*/
+.reg-container{
+  max-width: 700px;
+  width: 100%;
+  background-color: #ffffff;
+  margin-left: 320px;
+  /* padding: 25px 30px; */
+  padding: 0;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+
+.reg-content .reg-title{
+  height: 90px;
+  background: #FF5E00;
+  border-radius: 5px 5px 0 0;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reg-content form .reg-user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+  padding: 25px 30px;
+}
+form .reg-user-details .reg-input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+form .reg-input-box span.reg-details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.reg-user-details .reg-input-box input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #8b8b8b;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+.reg-user-details .reg-input-box input:focus,
+.reg-user-details .reg-input-box input:valid{
+  border-color: #8b8b8b;
+}
+ form .reg-button{
+   height: 45px;
+   margin: 35px 0;
+   padding-left: 150px;
+   padding-right: 150px;
+ }
+ form .reg-button input{
+   height: 100%;
+   width: 100%;
+   border-radius: 5px;
+   border: none;
+   color: #ffffff;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background: #FF5E00;
+ }
+ form .reg-button input:hover{
+  /* transform: scale(0.99); */
+  font-weight: bolder;
+  }
+  .reg-content form .reg-signup-link{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 17px;
+    color: #8b8b8b;
+    padding-bottom: 15px;
+  }
+  .reg-content form .reg-signup-link a{
+    color: #FF5E00;
+    text-decoration: none;
+  }
+  form .reg-signup-link a:hover{
+    text-decoration: underline;
+  }
+ @media(max-width: 584px){
+ .reg-container{
+  max-width: 100%;
+  margin: auto;
+}
+.reg-title{
+  margin: auto;
+  margin-left: 0px;
+}
+form .reg-user-details .reg-input-box{
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .reg-content form .reg-user-details{
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  .reg-user-details::-webkit-scrollbar{
+    width: 5px;
+  }
+  }
+  @media(max-width: 459px){
+  .reg-container .reg-content .category{
+    flex-direction: column;
+  }
+}
+
+/*----------Registration CSS Ends Here ----------*/
