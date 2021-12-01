@@ -661,3 +661,103 @@ ul{
 }
 
 /*----------Footer CSS Ends Here ----------*/
+
+/*----------Login CSS Starts Here ----------*/
+.login-container{
+  max-width: 450px;
+  padding: 0 20px;
+  margin: 170px auto; 
+}
+.login-wrapper{
+  width: 100%;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
+}
+.login-wrapper .login-title{
+  height: 90px;
+  background: #FF5E00;
+  border-radius: 5px 5px 0 0;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-wrapper form{
+  padding: 30px 25px 25px 25px;
+}
+.login-wrapper form .login-row{
+  height: 45px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.login-wrapper form .login-row input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 60px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+form .login-row input:focus{
+  border-color: #FF5E00;
+  box-shadow: inset 0px 0px 2px 2px rgba(26,188,156,0.25);
+}
+form .login-row input::placeholder{
+  color: #8b8b8b;
+}
+.login-wrapper form .login-row i{
+  position: absolute;
+  width: 47px;
+  height: 100%;
+  color: #ffffff;
+  font-size: 18px;
+  background: #FF5E00;
+  border: 1px solid #FF5E00;
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-wrapper form .login-pass{
+  margin: -8px 0 20px 0;
+}
+.login-wrapper form .login-pass a{
+  color: #ff5e00;
+  font-size: 17px;
+  text-decoration: none;
+}
+.login-wrapper form .login-pass a:hover{
+  text-decoration: underline;
+}
+.login-wrapper form .login-button input{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 0px;
+  background: #FF5E00;
+  border: 1px solid #FF5E00;
+  cursor: pointer;
+}
+form .login-button input:hover{
+  background: #FF5E00;
+}
+.login-wrapper form .login-signup-link{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 17px;
+  color: #8b8b8b;
+}
+.login-wrapper form .login-signup-link a{
+  color: #FF5E00;
+  text-decoration: none;
+}
+form .login-signup-link a:hover{
+  text-decoration: underline;
+}
+
+/*----------Login CSS Ends Here ----------*/

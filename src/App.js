@@ -5,6 +5,7 @@ import Offer from "./components/Offer";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Reservation from "./components/Reservation";
+import Login from "./components/Login";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Header />
         <Offer />
         <Reservation/>
+        <Login/>
         <About />
         <Contact />
         <Footer />
