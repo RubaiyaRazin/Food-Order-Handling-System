@@ -10,11 +10,11 @@ const Login =()=>{
         <form action="#">
           <div class="login-row">
             <i class="fas fa-user"><RiUser3Fill/></i>
-            <input type="text" placeholder="Email or Phone" required/>
+            <input type="text" placeholder="Email or Phone" required=""/>
           </div>
           <div class="login-row">
             <i class="fas fa-lock"><FaLock/></i>
-            <input type="password" placeholder="Password" required/>
+            <input type="password" placeholder="Password" required=""/>
           </div>
           <div class="login-pass"><a href="#">Forgot password?</a></div>
           <div class="login-row login-button">
