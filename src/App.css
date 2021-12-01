@@ -409,11 +409,19 @@ body {
 
 /*----------Contact CSS Starts Here ----------*/
 .contact-container{
-  width: 85%;
-  background: #fff;
-  border-radius: 6px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 5px;
   padding: 20px 60px 30px 40px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.contact-container h1 {
+  text-align: center;
+  font-size: 40px;
+    color: #FF5E00;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 15px;
 }
 .contact-container .contact-content{
   display: flex;
@@ -438,25 +446,28 @@ body {
   right: -15px;
   top: 50%;
   transform: translateY(-50%);
-  background: #afafb6;
+  background: #8b8b8b;
 }
 .contact-content .contact-left-side .details{
   margin: 14px;
   text-align: center;
+  font-family: 'Nunito', sans-serif;
 }
 .contact-content .contact-left-side .details i{
   font-size: 30px;
-  color: #3e2093;
+  color: #FF5E00;
   margin-bottom: 10px;
 }
 .contact-content .contact-left-side .details .contact-topic{
   font-size: 18px;
   font-weight: 500;
+  font-family: 'Nunito', sans-serif;
 }
 .contact-content .contact-left-side .details .contact-text-one,
 .contact-content .contact-left-side .details .contact-text-two{
   font-size: 14px;
-  color: #afafb6;
+  color: #8b8b8b;
+  font-family: 'Nunito', sans-serif;
 }
 .contact-container .contact-content .contact-right-side{
   width: 75%;
@@ -465,7 +476,7 @@ body {
 .contact-content .contact-right-side .contact-topic-text{
   font-size: 23px;
   font-weight: 600;
-  color: #3e2093;
+  color: #FF5E00;
 }
 .contact-right-side .contact-input-box{
   height: 50px;
@@ -474,15 +485,17 @@ body {
 }
 .contact-right-side .contact-input-box input,
 .contact-right-side .contact-input-box textarea{
+  text-transform: capitalize;
   height: 100%;
   width: 100%;
-  border: none;
+  border: 1px solid #8b8b8b;
   outline: none;
   font-size: 16px;
   background: #F0F1F8;
   border-radius: 6px;
   padding: 0 15px;
   resize: none;
+  font-family: 'Nunito', sans-serif;
 }
 .contact-right-side .contact-message-box{
   min-height: 110px;
@@ -501,12 +514,14 @@ body {
   border: none;
   padding: 8px 16px;
   border-radius: 6px;
-  background: #3e2093;
+  background: #FF5E00;
   cursor: pointer;
   transition: all 0.3s ease;
+  font-family: 'Nunito', sans-serif;
 }
 .contact-button input[type="button"]:hover{
-  background: #5029bc;
+  background: #ff5e00;
+  font-weight: bolder;
 }
 
 @media (max-width: 950px) {

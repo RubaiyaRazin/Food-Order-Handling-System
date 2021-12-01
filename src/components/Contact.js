@@ -5,7 +5,8 @@ import { MdEmail } from "react-icons/md";
 
 const Contact =()=>{
     return(
-        <div class="contact-container">
+    <div class="contact-container">
+        <h1>Contact Us</h1>
     <div class="contact-content">
       <div class="contact-left-side">
         <div class="address details">
@@ -29,7 +30,6 @@ const Contact =()=>{
       </div>
       <div class="contact-right-side">
         <div class="contact-topic-text">Get In Touch</div>
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
       <form action="#">
         <div class="contact-input-box">
           <input type="text" placeholder="Enter your name"/>
@@ -38,7 +38,7 @@ const Contact =()=>{
           <input type="text" placeholder="Enter your email"/>
         </div>
         <div class="contact-input-box contact-message-box">
-          <textarea placeholder="Enter your comments"></textarea>
+          <textarea placeholder="Enter your comment"></textarea>
         </div>
         <div class="contact-button">
           <input type="button" value="SEND" />
