@@ -18,7 +18,7 @@ const Header = () => {
 
                     <div className="banner__btn">
                         <a href="" className="btn btn-smart">
-                            Confirm Order
+                            CONFIRM ORDER
                         </a>
                     </div>
                 </div>

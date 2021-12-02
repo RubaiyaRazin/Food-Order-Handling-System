@@ -4,11 +4,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
     font-family: 'Nunito', sans-serif;
 }
+
+/* ----------Header CSS Starts Here---------- */
 
 .banner {
     width: 100%;
@@ -55,6 +58,12 @@ body {
     color: rgb(247, 150, 71);
 }
 
+/* ----------Header CSS Ends Here---------- */
+
+
+
+/* ----------Navbar CSS Starts Here---------- */
+
 .navbar {
     position: absolute;
     top: 0;
@@ -94,7 +103,7 @@ body {
     text-decoration: none;
     border: none;
     outline: none;
-    color: #333;
+    color: #FFFFFF;
     font-weight: 700;
     border-radius: 30px;
     font-size: 15px;
@@ -105,6 +114,250 @@ body {
 .btn-smart {
     background: rgb(247, 150, 71);
 }
+
+/* ----------Navbar CSS Endss Here---------- */
+
+
+
+/*----------Offer CSS Starts Here ----------*/
+
+.offer-slide h3{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-right: 0;
+    margin-left: 0;
+    font-weight: 700;
+    line-height: 0;
+    color: #8b8b8b;
+    
+  }
+  
+  .offer-slide h1{
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-right: 0;
+    margin-left: 0;
+    color: #FF5E00;
+    font-weight: 600px;
+    
+  }
+  
+  .box hr{
+    width: 50%;
+    border: 1px solid;
+    margin: auto;
+  }
+  
+  .box{
+    width: 200px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2) ;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 15px;
+    
+  }
+  
+  .slide-img{
+    height: 300px;
+    position: relative;
+    
+  }
+  
+  .slide-img img{
+    padding-top: 50px;
+    margin: auto;
+    padding: auto;
+    object-fit: cover;
+    box-sizing: border-box;
+    
+  }
+  
+  .detail-box{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  10px 20px;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .type{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .type a{
+    color: black;
+    margin: 5px 0px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding-left: 20px;
+    
+  }
+  
+  .price{
+    color: black;
+    font-weight: 400;
+    font-size: 1.1rem;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 0.5px;
+    padding-right: 15px;
+    
+  }
+  
+  .overlayer{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  .cart-btn{
+    width: 160px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    color: #f79647;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 5px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    
+  }
+  
+  .cart-btn:hover{
+    color: #ffffff;
+    background-color:#f79647;
+    transition: all ease 0.5s;
+  }
+  
+  .overlayer{
+    visibility: hidden;
+  }
+  
+  .slide-img:hover .overlayer{
+    visibility: visible;
+    animation: fade 0.5s;
+  }
+  
+  @keyframes fade{
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+  
+
+/*-----------Offer CSS Ends Here---------- */
+
+
+
+/* ----------Reservation CSS Starts Here---------- */
+.reservation h1{
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-right: 0;
+  margin-left: 0;
+  color: #FF5E00;
+  font-weight: 600px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.reservation h3{
+  text-align: center;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-right: 0;
+  margin-left: 0;
+  font-weight: 700;
+  line-height: 0;
+  color: #8b8b8b;
+  padding-top: 50px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.reservation p{
+  font-size: 18px;
+  color: #000000;
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 50px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.reservation .form-inline {  
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.reservation .form-inline input {
+  vertical-align: center;
+  margin: 5px 10px 5px 0px;
+  margin-left: 30px;
+  padding: 20px 15px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1.5px solid #8b8b8b;
+  width:25%
+  
+
+}
+
+.reservation .form-inline button {
+  font-family: 'Nunito', sans-serif;
+  padding: 20px 15px;
+  background-color: #FF5E00;
+  border: 1px solid #fff;
+  color: white;
+  cursor: pointer;
+  width: 15%;
+  border-radius: 5px;
+}
+
+.reservation .form-inline button:hover {
+  background-color: #FF5E00;
+  font-weight: bolder;
+  
+}
+
+@media (max-width: 800px) {
+  .reservation .form-inline input {
+    margin: 10px 0;
+  }
+  
+  .reservation .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+/*----------Reservation CSS Ends Here ----------*/
+
+
+
+/*----------About CSS Starts Here ----------*/
 
 .about {
     padding: 80px 0;
@@ -160,3 +413,121 @@ body {
     width: 100%;
 }
 
+
+
+/*----------About CSS Ends Here ----------*/
+
+
+
+
+/*----------Contact CSS Starts Here ----------*/
+
+
+
+
+/*----------Contact CSS Ends Here ----------*/
+
+
+
+
+/*----------Footer CSS Starts Here ----------*/
+.container{
+  max-width: 1170px;
+  margin: auto;
+  
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+ul{
+  list-style: none;
+}
+.footer{
+  background-color: #ffffff;
+  padding: 70px 0;
+  
+}
+
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+  
+}
+
+.footer-col h4{
+  font-size: 18px;
+  color: #ff5e00;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 600;
+  position: relative;
+}
+
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #8b8b8b;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 300;
+  color: #8b8b8b;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+  color: #FF5E00;
+  padding-left: 8px;
+  font-weight: bolder;
+}
+
+.footer-col .social-links a{ 
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(0,0,0,0);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 50%;
+  color: #FF5E00;
+  transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+  color: #ffffff;
+  background-color: #ff5e00;
+}
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+  }
+}
+
+/*----------Footer CSS Ends Here ----------*/
