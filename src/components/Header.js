@@ -1,11 +1,11 @@
 // by using rafce short cut key 
-import React from 'react'
+import React from 'react';
 import Navbar from './Navbar';
 
 const Header = () => {
     return (
         <div className="banner">
-        <Navbar />
+            <Navbar/>
         <div className="banner__content">
             <div className="container">
                 <div className="banner__text">
@@ -28,4 +28,4 @@ const Header = () => {
   );
 };
 
-export default Header
+export default Header;

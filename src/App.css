@@ -58,6 +58,26 @@ body {
     color: rgb(247, 150, 71);
 }
 
+@media(max-width: 767px){
+  .banner .banner__text{
+    width: 50%;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 300px;
+    padding-top: 80px;
+    padding-bottom: 250px;
+  }
+  .banner__btn{
+    width: 200px;
+  }
+}
+
+@media(max-width: 574px){
+  .banner{
+    width: 100%;
+  }
+}
+
 /* ----------Header CSS Ends Here---------- */
 
 
@@ -98,13 +118,17 @@ body {
     margin-top: 35px;
 }
 
+.btn:hover{
+  font-weight:bolder;
+}
+
 
 .btn {
     text-decoration: none;
     border: none;
     outline: none;
     color: #FFFFFF;
-    font-weight: 700;
+    font-weight: 400;
     border-radius: 30px;
     font-size: 15px;
     padding: 15px 30px;
@@ -112,8 +136,9 @@ body {
 }
 
 .btn-smart {
-    background: rgb(247, 150, 71);
+    background: #FF5E00;
 }
+
 
 /* ----------Navbar CSS Endss Here---------- */
 
@@ -264,7 +289,6 @@ body {
       opacity: 1;
     }
   }
-  
 
 /*-----------Offer CSS Ends Here---------- */
 
@@ -414,6 +438,22 @@ body {
 }
 
 
+@media(max-width: 767px){
+  .container{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+  .about__btn{
+    width: 200px;
+  }
+}
+
+@media(max-width: 574px){
+  .container{
+    width: 100%;
+  }
+}
 
 /*----------About CSS Ends Here ----------*/
 
@@ -421,7 +461,155 @@ body {
 
 
 /*----------Contact CSS Starts Here ----------*/
+.contact-container{
+  width: 100%;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 20px 60px 30px 40px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.contact-container h1 {
+  text-align: center;
+  font-size: 40px;
+    color: #FF5E00;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+.contact-container .contact-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact-container .contact-content .contact-left-side{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  position: relative;
+}
+.contact-content .contact-left-side::before{
+  content: '';
+  position: absolute;
+  height: 70%;
+  width: 2px;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #8b8b8b;
+}
+.contact-content .contact-left-side .details{
+  margin: 14px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+}
+.contact-content .contact-left-side .details i{
+  font-size: 30px;
+  color: #FF5E00;
+  margin-bottom: 10px;
+}
+.contact-content .contact-left-side .details .contact-topic{
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Nunito', sans-serif;
+}
+.contact-content .contact-left-side .details .contact-text-one,
+.contact-content .contact-left-side .details .contact-text-two{
+  font-size: 14px;
+  color: #8b8b8b;
+  font-family: 'Nunito', sans-serif;
+}
+.contact-container .contact-content .contact-right-side{
+  width: 75%;
+  margin-left: 75px;
+}
+.contact-content .contact-right-side .contact-topic-text{
+  font-size: 23px;
+  font-weight: 600;
+  color: #FF5E00;
+}
+.contact-right-side .contact-input-box{
+  height: 50px;
+  width: 100%;
+  margin: 12px 0;
+}
+.contact-right-side .contact-input-box input,
+.contact-right-side .contact-input-box textarea{
+  text-transform: capitalize;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #8b8b8b;
+  outline: none;
+  font-size: 16px;
+  background: #F0F1F8;
+  border-radius: 6px;
+  padding: 0 15px;
+  resize: none;
+  font-family: 'Nunito', sans-serif;
+}
+.contact-right-side .contact-message-box{
+  min-height: 110px;
+}
+.contact-right-side .contact-input-box textarea{
+  padding-top: 6px;
+}
+.contact-right-side .contact-button{
+  display: inline-block;
+  margin-top: 12px;
+}
+.contact-right-side .contact-button input[type="button"]{
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #FF5E00;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Nunito', sans-serif;
+}
+.contact-button input[type="button"]:hover{
+  background: #ff5e00;
+  font-weight: bolder;
+}
 
+@media (max-width: 950px) {
+  .contact-contact-container{
+    width: 90%;
+    padding: 30px 40px 40px 35px ;
+  }
+  .contact-container .contact-content .contact-right-side{
+   width: 75%;
+   margin-left: 55px;
+}
+}
+@media (max-width: 820px) {
+  .contact-container{
+    margin: 40px 0;
+    height: 100%;
+  }
+  .contact-container .contact-content{
+    flex-direction: column-reverse;
+  }
+ .contact-container .contact-content .contact-left-side{
+   width: 100%;
+   flex-direction: row;
+   margin-top: 40px;
+   justify-content: center;
+   flex-wrap: wrap;
+ }
+ .contact-container .contact-content .contact-left-side::before{
+   display: none;
+ }
+ .contact-container .contact-content .contact-right-side{
+   width: 100%;
+   margin-left: 0;
+ }
+}
 
 
 
@@ -431,7 +619,7 @@ body {
 
 
 /*----------Footer CSS Starts Here ----------*/
-.container{
+.footer-container{
   max-width: 1170px;
   margin: auto;
   
@@ -531,3 +719,223 @@ ul{
 }
 
 /*----------Footer CSS Ends Here ----------*/
+
+/*----------Login CSS Starts Here ----------*/
+.login-container{
+  max-width: 450px;
+  padding: 0 20px;
+  margin: 170px auto; 
+}
+.login-wrapper{
+  width: 100%;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
+}
+.login-wrapper .login-title{
+  height: 90px;
+  background: #FF5E00;
+  border-radius: 5px 5px 0 0;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-wrapper form{
+  padding: 30px 25px 25px 25px;
+}
+.login-wrapper form .login-row{
+  height: 45px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.login-wrapper form .login-row input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 60px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+form .login-row input:focus{
+  border-color: #FF5E00;
+  box-shadow: inset 0px 0px 2px 2px rgba(26,188,156,0.25);
+}
+form .login-row input::placeholder{
+  color: #8b8b8b;
+}
+.login-wrapper form .login-row i{
+  position: absolute;
+  width: 47px;
+  height: 100%;
+  color: #ffffff;
+  font-size: 18px;
+  background: #FF5E00;
+  border: 1px solid #FF5E00;
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-wrapper form .login-pass{
+  margin: -8px 0 20px 0;
+}
+.login-wrapper form .login-pass a{
+  color: #ff5e00;
+  font-size: 17px;
+  text-decoration: none;
+}
+.login-wrapper form .login-pass a:hover{
+  text-decoration: underline;
+}
+.login-wrapper form .login-button input{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 0px;
+  background: #FF5E00;
+  border: 1px solid #FF5E00;
+  cursor: pointer;
+}
+form .login-button input:hover{
+  background: #FF5E00;
+}
+.login-wrapper form .login-signup-link{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 17px;
+  color: #8b8b8b;
+}
+.login-wrapper form .login-signup-link a{
+  color: #FF5E00;
+  text-decoration: none;
+}
+form .login-signup-link a:hover{
+  text-decoration: underline;
+}
+
+/*----------Login CSS Ends Here ----------*/
+
+/*----------Registration CSS Starts Here ----------*/
+.reg-container{
+  max-width: 700px;
+  width: 100%;
+  background-color: #ffffff;
+  margin-left: 320px;
+  padding: 0;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+
+.reg-content .reg-title{
+  height: 90px;
+  background: #FF5E00;
+  border-radius: 5px 5px 0 0;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reg-content form .reg-user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+  padding: 25px 30px;
+}
+form .reg-user-details .reg-input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+form .reg-input-box span.reg-details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.reg-user-details .reg-input-box input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #8b8b8b;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+.reg-user-details .reg-input-box input:focus,
+.reg-user-details .reg-input-box input:valid{
+  border-color: #8b8b8b;
+}
+ form .reg-button{
+   height: 45px;
+   margin: 35px 0;
+   padding-left: 150px;
+   padding-right: 150px;
+ }
+ form .reg-button input{
+   height: 100%;
+   width: 100%;
+   border-radius: 5px;
+   border: none;
+   color: #ffffff;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background: #FF5E00;
+ }
+ form .reg-button input:hover{
+  /* transform: scale(0.99); */
+  font-weight: bolder;
+  }
+  .reg-content form .reg-signup-link{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 17px;
+    color: #8b8b8b;
+    padding-bottom: 15px;
+  }
+  .reg-content form .reg-signup-link a{
+    color: #FF5E00;
+    text-decoration: none;
+  }
+  form .reg-signup-link a:hover{
+    text-decoration: underline;
+  }
+ @media(max-width: 584px){
+ .reg-container{
+  max-width: 100%;
+  margin: auto;
+}
+.reg-title{
+  margin: auto;
+  margin-left: 0px;
+}
+form .reg-user-details .reg-input-box{
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .reg-content form .reg-user-details{
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  .reg-user-details::-webkit-scrollbar{
+    width: 5px;
+  }
+  }
+  @media(max-width: 459px){
+  .reg-container .reg-content .category{
+    flex-direction: column;
+  }
+}
+
+/*----------Registration CSS Ends Here ----------*/
