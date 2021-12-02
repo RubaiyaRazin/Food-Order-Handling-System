@@ -21,11 +21,12 @@ export default class MultipleItems extends Component {
       slidesToScroll: 3
     };
     return (
+        
       <div className="offer-slide">
         <h3> Exclusive </h3>
         <h1>BEST OFFER</h1>
         <Slider {...settings}>
-            <div className="box">
+        <div className="box">
             <div className="slide-img">
                 <img src={pic1} alt="food img"/>
                 <div className="overlayer">
@@ -120,9 +121,9 @@ export default class MultipleItems extends Component {
                 <a href="#" className="price">470.00</a>
             </div>
             </div>
-            
         </Slider>
       </div>
+      
     );
   }
 }
