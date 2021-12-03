@@ -7,8 +7,9 @@ const About = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-6 p-25">    {/*here p-25 for padding */}
-                        <h3>About Us</h3>
-                        <h1>WELCOME TO Our Food Order Handling Website!</h1>
+                        <h1>About Us</h1>
+                        <br></br>
+                        <h3>Welcome To Our Food Order Handling Website!</h3>
                         <p>
                             Investigationes demonstraverunt lectores legere me lius quod ii
                             legunt saepius. Claritas est etiam processus dynaus, quise

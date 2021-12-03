@@ -406,13 +406,13 @@ body {
 .col-4 {
     width: 33.33333333333333%;
 }
-.about h3 {
+.about h1 {
     color: rgba(37, 37, 37, 0.7);
     font-size: 30px;
     margin-bottom: 12px;
     font-weight: 700;
 }
-.about h1 {
+.about h3 {
     font-size: 40px;
     color: #252525;
     font-weight: 700;
