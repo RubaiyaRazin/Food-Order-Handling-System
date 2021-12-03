@@ -38,7 +38,7 @@ export default class MultipleItems extends Component {
                 <div className="type">
                     <a href="#">Weekend Snacks</a>
                 </div>
-                <a href="#" className="price">750.00</a>
+                <a href="#" className="price">750.00 TK</a>
             </div>
             </div>
 
@@ -54,7 +54,7 @@ export default class MultipleItems extends Component {
                 <div className="type">
                     <a href="#">Salmon & Vegetables</a>
                 </div>
-                <a href="#" className="price">1200.00</a>
+                <a href="#" className="price">1200.00 TK</a>
             </div>
             </div>
 
@@ -70,7 +70,7 @@ export default class MultipleItems extends Component {
                 <div className="type">
                     <a href="#">Beef Burger</a>
             </div>
-                <a href="#" className="price">450.00</a>
+                <a href="#" className="price">450.00 TK</a>
             </div>
             </div>
 
@@ -86,7 +86,7 @@ export default class MultipleItems extends Component {
                 <div className="type">
                     <a href="#">Steak with Fries</a>
                 </div>
-                <a href="#" className="price">1100.00</a>
+                <a href="#" className="price">1100.00 TK</a>
             </div>
             </div>
 
@@ -102,7 +102,7 @@ export default class MultipleItems extends Component {
                 <div className="type">
                     <a href="#">Shrimp Pizza</a>
                 </div>
-                <a href="#" className="price">750.00</a>
+                <a href="#" className="price">750.00 TK</a>
             </div>
             </div>
 
@@ -118,7 +118,7 @@ export default class MultipleItems extends Component {
                 <div className="type">
                     <a href="#">Mushroom Special Pizza</a>
                 </div>
-                <a href="#" className="price">470.00</a>
+                <a href="#" className="price">470.00 TK</a>
             </div>
             </div>
         </Slider>
