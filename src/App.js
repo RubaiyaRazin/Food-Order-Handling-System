@@ -17,6 +17,7 @@ import Contact from "./components/Contact";
 import Reservation from "./components/Reservation";
 import Login from "./components/Login";
 import Registration from "./components/Registration";
+import Menu from "./components/Menu";
 
 function App() {
   return (
@@ -48,6 +49,9 @@ function App() {
         <Login/>
         <Registration />
         <About />
+        <Menu name="side dish" desc="Tasty food made with fresh ingrediants."/>
+        <Menu name="fastfood" desc="Tasty food made with fresh ingrediants."/>
+        <Menu name="Drinks" desc="Tasty food made with fresh ingrediants."/>
         <Contact />
         <Footer />
     </div>

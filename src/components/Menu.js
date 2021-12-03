@@ -1,6 +1,9 @@
 import React from 'react'       //rafce is a Shortcut to write react code
+import Item from './Item';
+import BBQPizza from "../img/BBQPizza.png";
 
-const Menu = ({name, desc, menu, addItem}) => {
+
+const Menu = ({name, desc}) => {
     return (
         <section className="features-boxed">
             <div className="container">
@@ -9,9 +12,42 @@ const Menu = ({name, desc, menu, addItem}) => {
                     <p className="text-center">{desc}</p>
                 </div>
                 <div className="row justify-content-center features">
-                    {menu.map((pizza) => (
-                        <Item key={pizza.id} item={pizza} addItem={addItem}/>
-                    ))}
+                    <Item name="BBQ Chickne" 
+                    desc="BBQ Chicken with grilled chicken."
+                    price={12.50}
+                    img={BBQPizza}
+                    />
+                    
+                    <Item name="BBQ Chickne" 
+                    desc="BBQ Chicken with grilled chicken."
+                    price={12.50}
+                    img={BBQPizza}
+                    />
+
+                    <Item name="BBQ Chickne" 
+                    desc="BBQ Chicken with grilled chicken."
+                    price={12.50}
+                    img={BBQPizza}
+                    />
+
+                    <Item name="BBQ Chickne" 
+                    desc="BBQ Chicken with grilled chicken."
+                    price={12.50}
+                    img={BBQPizza}
+                    />
+
+                    <Item name="BBQ Chickne" 
+                    desc="BBQ Chicken with grilled chicken."
+                    price={12.50}
+                    img={BBQPizza}
+                    />
+
+                    <Item name="BBQ Chickne" 
+                    desc="BBQ Chicken with grilled chicken."
+                    price={12.50}
+                    img={BBQPizza}
+                    />
+
                 </div>
             </div>
         </section>
