@@ -1,3 +1,12 @@
+import React from 'react';
+// import {
+//   BrowserRouter as Router,
+//   Route,
+//   Redirect,
+//   Switch
+// } from 'react-router-dom';
+//this upper portion recenly added for responsive navbar
+
 import './App.css';
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";       // importing Header.js to App.js
@@ -11,6 +20,26 @@ import Registration from "./components/Registration";
 
 function App() {
   return (
+//     <Router>
+//     <Navbar/>
+//     <main>
+//       <Switch>
+//         <Route path="/" exact>
+//           <Home/>
+//         </Route>
+//         <Route path="/about" exact>
+//           <About/>
+//         </Route>
+        
+//         <Route path="/contact" exact>
+//           <Contact/>
+//         </Route>
+//         <Redirect to="/" />
+//       </Switch>
+//     </main>
+//    </Router>
+
+
     <div>
         <Navbar />
         <Header />
