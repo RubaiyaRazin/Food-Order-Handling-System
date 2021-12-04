@@ -1,11 +1,4 @@
 import React from 'react';
-// import {
-//   BrowserRouter as Router,
-//   Route,
-//   Redirect,
-//   Switch
-// } from 'react-router-dom';
-//this upper portion recenly added for responsive navbar
 
 import './App.css';
 import Navbar from "./components/Navbar";
@@ -21,25 +14,6 @@ import Menu from "./components/Menu";
 
 function App() {
   return (
-//     <Router>
-//     <Navbar/>
-//     <main>
-//       <Switch>
-//         <Route path="/" exact>
-//           <Home/>
-//         </Route>
-//         <Route path="/about" exact>
-//           <About/>
-//         </Route>
-        
-//         <Route path="/contact" exact>
-//           <Contact/>
-//         </Route>
-//         <Redirect to="/" />
-//       </Switch>
-//     </main>
-//    </Router>
-
 
     <div>
         <Navbar />
@@ -50,8 +24,8 @@ function App() {
         <Registration />
         <About />
         <Menu name="side dish" desc="Tasty food made with fresh ingrediants."/>
-        <Menu name="fastfood" desc="Tasty food made with fresh ingrediants."/>
-        <Menu name="Drinks" desc="Tasty food made with fresh ingrediants."/>
+        {/* <Menu name="fastfood" desc="Tasty food made with fresh ingrediants."/>
+        <Menu name="Drinks" desc="Tasty food made with fresh ingrediants."/> */}
         <Contact />
         <Footer />
     </div>
