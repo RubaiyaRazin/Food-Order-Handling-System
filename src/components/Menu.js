@@ -12,37 +12,61 @@ const Menu = ({name, desc}) => {
                     <p className="text-center">{desc}</p>
                 </div>
                 <div className="row justify-content-center features">
-                    <Item name="BBQ Chickne" 
+                    <Item name="BBQ Chicken" 
                     desc="BBQ Chicken with grilled chicken."
                     price={12.50}
                     img={BBQPizza}
                     />
                     
-                    <Item name="BBQ Chickne" 
+                    <Item name="BBQ Chicken" 
                     desc="BBQ Chicken with grilled chicken."
                     price={12.50}
                     img={BBQPizza}
                     />
 
-                    <Item name="BBQ Chickne" 
+                    <Item name="BBQ Chicken" 
                     desc="BBQ Chicken with grilled chicken."
                     price={12.50}
                     img={BBQPizza}
                     />
 
-                    <Item name="BBQ Chickne" 
+                    <Item name="BBQ Chicken" 
                     desc="BBQ Chicken with grilled chicken."
                     price={12.50}
                     img={BBQPizza}
                     />
 
-                    <Item name="BBQ Chickne" 
+                    <Item name="BBQ Chicken" 
                     desc="BBQ Chicken with grilled chicken."
                     price={12.50}
                     img={BBQPizza}
                     />
 
-                    <Item name="BBQ Chickne" 
+                    <Item name="BBQ Chicken" 
+                    desc="BBQ Chicken with grilled chicken."
+                    price={12.50}
+                    img={BBQPizza}
+                    />
+
+                    <Item name="BBQ Chicken" 
+                    desc="BBQ Chicken with grilled chicken."
+                    price={12.50}
+                    img={BBQPizza}
+                    />
+                    
+                    <Item name="BBQ Chicken" 
+                    desc="BBQ Chicken with grilled chicken."
+                    price={12.50}
+                    img={BBQPizza}
+                    />
+
+                    <Item name="BBQ Chicken" 
+                    desc="BBQ Chicken with grilled chicken."
+                    price={12.50}
+                    img={BBQPizza}
+                    />
+
+                    <Item name="BBQ Chicken" 
                     desc="BBQ Chicken with grilled chicken."
                     price={12.50}
                     img={BBQPizza}

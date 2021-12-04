@@ -484,7 +484,7 @@ nav {
 .col-4 {
     width: 33.33333333333333%;
 }
-.about h1 {
+.about h2 {
     color: rgba(37, 37, 37, 0.7);
     font-size: 30px;
     margin-bottom: 12px;
@@ -1027,7 +1027,7 @@ form .reg-user-details .reg-input-box{
 }
 
 .features-boxed p {
-    color: #7d8285;
+    color: #8b8b8b;
 }
 
 .features-boxed h2 {
@@ -1035,8 +1035,11 @@ form .reg-user-details .reg-input-box{
     margin-bottom: 40px;
     padding-top: 40px;
     color: inherit;
-    font-family: 'Lilita One', cursive;
+    font-family: 'Nunito', sans-serif;   /* 'Lilita One', cursive */
     font-size: 3em;
+    color: rgba(37, 37, 37, 0.7);
+    text-align: center;
+    font-weight: 700;
 }
 
 @media (max-width: 767px) {
@@ -1049,7 +1052,7 @@ form .reg-user-details .reg-input-box{
 
 .features-boxed .intro {
     font-size: 16px;
-    max-width: 500px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -1058,7 +1061,8 @@ form .reg-user-details .reg-input-box{
 }
 
 .features-boxed .features {
-    padding: 50px 0;
+    padding: 50px 0px;
+    
 }
 
 .features-boxed .item {
@@ -1068,7 +1072,7 @@ form .reg-user-details .reg-input-box{
 .features-boxed .item .box {
     text-align: center;
     padding: 30px;
-    background-color: #fff;
+    background-color: rgb(252, 255, 225);
     margin-bottom: 30px;
     border-radius: 5px;
 }
@@ -1076,25 +1080,30 @@ form .reg-user-details .reg-input-box{
 .features-boxed .item .pizza-img {
     /*font-size: 60px;*/
     /*color: #1485ee;*/
-    margin-top: 20px;
-    margin-bottom: 35px;
-    height: 200px;
+    /* margin-top: 20px;
+    margin-bottom: 35px; */
+    width: 100%;
+    /* height: 50px; */
 }
 
 .features-boxed .item .name {
     margin-bottom: 8px;
-    margin-top: 0;
-    color: var(--bs-gray-dark);
+    margin-top: 0px;
+    color: rgba(37, 37, 37, 0.7);
 }
 
 .features-boxed .item .description {
     font-size: 15px;
     margin-top: 15px;
     margin-bottom: 20px;
+    color: peru;
+    font-weight: 600;
 }
 
 .price {
     font-size: 1em;
+    color: orangered;
+    font-weight: 600;
 }
 
 .fas.fa-shopping-basket {

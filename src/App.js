@@ -13,23 +13,23 @@ import Registration from "./components/Registration";
 import Menu from "./components/Menu";
 
 function App() {
-  return (
+    return (
 
-    <div>
-        <Navbar />
-        <Header />
-        <Offer />
-        <Reservation />
-        <Login/>
-        <Registration />
-        <About />
-        <Menu name="side dish" desc="Tasty food made with fresh ingrediants."/>
-        {/* <Menu name="fastfood" desc="Tasty food made with fresh ingrediants."/>
+        <div>
+            <Navbar />
+            <Header />
+            <Offer />
+            <Reservation />
+            <Login />
+            <Registration />
+            <About />
+            <Menu name="Food Menu" desc="Super delectious food. Tasty & delecious food made with fresh ingrediants. Food is an important part of your health! Have a look into our food menu & chose your desired food inteligently." />
+            {/* <Menu name="fastfood" desc="Tasty food made with fresh ingrediants."/>
         <Menu name="Drinks" desc="Tasty food made with fresh ingrediants."/> */}
-        <Contact />
-        <Footer />
-    </div>
-  );
+            <Contact />
+            <Footer />
+        </div>
+    );
 }
 
 export default App;

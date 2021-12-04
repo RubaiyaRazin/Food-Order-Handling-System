@@ -7,7 +7,7 @@ const About = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-6 p-25">    {/*here p-25 for padding */}
-                        <h1>About Us</h1>
+                        <h2>About Us</h2>
                         <br></br>
                         <h3>Welcome To Our Food Order Handling Website!</h3>
                         <p>
