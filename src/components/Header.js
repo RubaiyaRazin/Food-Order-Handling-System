@@ -16,11 +16,6 @@ const Header = () => {
                         Good Food Is The Foundation Of Genuine Happiness.
                     </p>
 
-                    <div className="banner__btn">
-                        <a href="" className="btn btn-smart">
-                            CONFIRM ORDER
-                        </a>
-                    </div>
                 </div>
             </div>
         </div>

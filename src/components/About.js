@@ -15,11 +15,11 @@ const About = () => {
                             legunt saepius. Claritas est etiam processus dynaus, quise
                             sequitur mutationem consuetudium lectorum.
                         </p>
-                        <div className="about__btn">
+                        {/* <div className="about__btn">
                             <a href="" className="btn btn-smart">
                                 READ MORE
                             </a>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="col-6">
                         <div className="about__img">

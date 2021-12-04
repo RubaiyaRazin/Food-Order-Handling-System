@@ -20,7 +20,7 @@ const Login =()=>{
           <div class="login-row login-button">
             <input type="submit" value="Login"/>
           </div>
-          <div class="login-signup-link">Not a member? <a href="#">Signup now</a></div>
+          <div class="login-signup-link">Not a member? <a href="#">Sign up now</a></div>
         </form>
       </div>
     </div>

@@ -18,14 +18,15 @@ function App() {
         <div>
             <Navbar />
             <Header />
-            <Offer />
-            <Reservation />
+            <About />
+            <Offer />    
+            <br></br><br></br><br></br>        
+            <Menu name="Food Menu" desc="Super delectious food. Tasty & delecious food made with fresh ingrediants. Food is an important part of your health! Have a look into our food menu & chose your desired food inteligently." />
             <Login />
             <Registration />
-            <About />
-            <Menu name="Food Menu" desc="Super delectious food. Tasty & delecious food made with fresh ingrediants. Food is an important part of your health! Have a look into our food menu & chose your desired food inteligently." />
-            {/* <Menu name="fastfood" desc="Tasty food made with fresh ingrediants."/>
-        <Menu name="Drinks" desc="Tasty food made with fresh ingrediants."/> */}
+            <br></br><br></br><br></br>
+            <Reservation />
+            <br></br><br></br><br></br>
             <Contact />
             <Footer />
         </div>

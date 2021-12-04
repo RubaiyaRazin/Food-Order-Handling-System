@@ -8,9 +8,9 @@ const Item = ({ name, desc, img, price}) => {
                 <h3 className="name">{name}</h3>
                 <p className="description">{desc}</p>
                 <div className="d-flex justify-content-around align-items-center">
-                    <button className="btn btn-success" type="button">
+                    {/* <button className="btn btn-success" type="button">
                         Add to basket
-                    </button>
+                    </button> */}
                     <span className="badge rounded-pill bg-danger price">{price} TK</span>
                 </div>
             </div>

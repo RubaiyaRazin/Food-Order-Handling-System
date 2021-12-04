@@ -70,6 +70,7 @@ body {
   .banner__btn{
     width: 200px;
   }
+  
 }
 
 @media(max-width: 574px){
@@ -110,45 +111,12 @@ body {
 
 /* ----------Navbar CSS Starts Here---------- */
 
-/* .navbar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-
-.navbar__text {
-    display: flex;
-    height: 60px;
-    align-items: center;
-    width: 1200px;
-    margin: 0 auto;
-}
- 
-.navbar__ul {
-    width: 100%;
-    list-style-type: none;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.navbar__ul li a {
-    text-decoration: none;
-    color: rgb(255, 94, 0);
-    padding: 0 15px;
-    font-weight: 800;
-    text-transform: uppercase;
-}
- */
-
-
 nav {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 50px;
-    /* background: rgb(255, 81, 0); */
     background: rgba(255, 15, 15, 0.938);
 }
 
@@ -161,20 +129,11 @@ nav {
     align-items: right;
     background: rgba(255, 15, 15, 0.938);
 
-    /* list-style-type: none;
-    background: linear-gradient(45deg, rgb(156, 14, 156), midnightblue);
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative; */
 }
 .items {
     padding-top: 1%;
     margin-right: 30px;
-    /* font-size: 20px; */
-    height: 60px;
-    /* width: 1200px; */
+    height: 60px;   
     text-transform: uppercase;
     color: #f1f1f1;
     cursor: pointer;
@@ -209,6 +168,7 @@ nav {
         text-align: center;
         margin-right: 0px;
         padding: 20px 0;
+        background-color: rgba(41, 38, 38, 0.979);
     }
     .btn {
         display: block;
@@ -224,7 +184,7 @@ nav {
 
 /*----------Offer CSS Starts Here ----------*/
 
-.offer-slide h3{
+.offer-slide h2{
     text-align: center;
     font-size: 2em;
     margin-top: 0.67em;
@@ -233,7 +193,7 @@ nav {
     margin-left: 0;
     font-weight: 700;
     line-height: 0;
-    color: #8b8b8b;
+    color: rgba(37, 37, 37, 0.7);
     
   }
   
@@ -394,7 +354,7 @@ nav {
   margin-left: 0;
   font-weight: 700;
   line-height: 0;
-  color: #8b8b8b;
+  color: rgba(37, 37, 37, 0.7);
   padding-top: 50px;
   font-family: 'Nunito', sans-serif;
 }
@@ -549,7 +509,7 @@ nav {
 .contact-container h1 {
   text-align: center;
   font-size: 40px;
-    color: #FF5E00;
+    color: rgba(37, 37, 37, 0.7);
     font-weight: 700;
     line-height: 40px;
     margin-bottom: 15px;
@@ -645,7 +605,7 @@ nav {
   border: none;
   padding: 8px 16px;
   border-radius: 6px;
-  background: #FF5E00;
+  background: rgba(37, 37, 37, 0.7);
   cursor: pointer;
   transition: all 0.3s ease;
   font-family: 'Nunito', sans-serif;
@@ -812,7 +772,7 @@ ul{
 }
 .login-wrapper .login-title{
   height: 90px;
-  background: #FF5E00;
+  background: #252525;
   border-radius: 5px 5px 0 0;
   color: #ffffff;
   font-size: 30px;
@@ -840,7 +800,7 @@ ul{
   transition: all 0.3s ease;
 }
 form .login-row input:focus{
-  border-color: #FF5E00;
+  border-color: #252525;
   box-shadow: inset 0px 0px 2px 2px rgba(26,188,156,0.25);
 }
 form .login-row input::placeholder{
@@ -852,8 +812,8 @@ form .login-row input::placeholder{
   height: 100%;
   color: #ffffff;
   font-size: 18px;
-  background: #FF5E00;
-  border: 1px solid #FF5E00;
+  background: #252525;
+  border: 1px solid #252525;
   border-radius: 5px 0 0 5px;
   display: flex;
   align-items: center;
@@ -863,7 +823,7 @@ form .login-row input::placeholder{
   margin: -8px 0 20px 0;
 }
 .login-wrapper form .login-pass a{
-  color: #ff5e00;
+  color: #252525;
   font-size: 17px;
   text-decoration: none;
 }
@@ -875,12 +835,12 @@ form .login-row input::placeholder{
   font-size: 20px;
   font-weight: 500;
   padding-left: 0px;
-  background: #FF5E00;
-  border: 1px solid #FF5E00;
+  background: #252525;
+  border: 1px solid #252525;
   cursor: pointer;
 }
 form .login-button input:hover{
-  background: #FF5E00;
+  background: orangered;
 }
 .login-wrapper form .login-signup-link{
   text-align: center;
@@ -912,7 +872,7 @@ form .login-signup-link a:hover{
 
 .reg-content .reg-title{
   height: 90px;
-  background: #FF5E00;
+  background: #252525;
   border-radius: 5px 5px 0 0;
   color: #ffffff;
   font-size: 30px;
@@ -970,7 +930,7 @@ form .reg-input-box span.reg-details{
    letter-spacing: 1px;
    cursor: pointer;
    transition: all 0.3s ease;
-   background: #FF5E00;
+   background: #252525;
  }
  form .reg-button input:hover{
   /* transform: scale(0.99); */
@@ -1020,7 +980,7 @@ form .reg-user-details .reg-input-box{
 /*----------Registration CSS Ends Here ----------*/
 
 
-/* For menu */
+/* ----------Food menu---------- */
 .features-boxed {
     color: #f1faee;
     background-color: var(--bs-gray-dark);

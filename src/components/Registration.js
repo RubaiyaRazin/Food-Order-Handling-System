@@ -35,7 +35,7 @@ const Registration =()=>{
         <div class="reg-button">
           <input type="submit" value="Register"/>
         </div>
-        <div class="reg-signup-link">Not a member? <a href="#">Signin now</a></div>
+        <div class="reg-signup-link">Are you a member? <a href="#">Sign in now</a></div>
       </form>
     </div>
   </div>

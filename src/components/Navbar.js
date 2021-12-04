@@ -33,7 +33,6 @@ export default function Navbar() {
         <li className="items">About</li>
         <li className="items">Contact</li>
         <li className="items">Login</li>
-        <li className="items">About</li>
       </ul>
         )}
   
@@ -42,33 +41,3 @@ export default function Navbar() {
     )
   }
 
-
-// const Navbar = () => {
-//     return (
-//         <div className="navbar">
-//             <div className="navbar__text">
-                
-//                 <ul className="navbar__ul">
-//                     <li>
-//                         <a href="">Menu</a>
-//                     </li>
-                    
-//                     <li>
-//                         <a href="">Reservation</a>
-//                     </li>
-//                     <li>
-//                         <a href="">About</a>
-//                     </li>
-//                     <li>
-//                         <a href="">Contact</a>
-//                     </li>
-//                     <li>
-//                         <a href="">Login</a>
-//                     </li>
-//                 </ul>
-//             </div>
-//         </div>
-//     )
-// }
-
-// export default Navbar;
