@@ -2,7 +2,7 @@
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import pic1 from "../img/food1.png";
-import pic2 from "../img/food2.png";
+import pic2 from "../img/rice.png";
 import pic3 from "../img/food3.png";
 import pic4 from "../img/food4.png";
 import pic5 from "../img/food5.png";

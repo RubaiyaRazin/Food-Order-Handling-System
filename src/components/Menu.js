@@ -1,6 +1,7 @@
 import React from 'react'       //rafce is a Shortcut to write react code
 import Item from './Item';
-import BBQPizza from "../img/BBQPizza.png";
+import Pizza from "../img/pizza.png";
+import Tikka from "../img/tikka.png";
 
 
 const Menu = ({name, desc}) => {
@@ -15,61 +16,61 @@ const Menu = ({name, desc}) => {
                     <Item name="BBQ Chicken" 
                     desc="BBQ Chicken with grilled chicken."
                     price={12.50}
-                    img={BBQPizza}
+                    img={Pizza}
                     />
                     
                     <Item name="BBQ Chicken" 
                     desc="BBQ Chicken with grilled chicken."
                     price={12.50}
-                    img={BBQPizza}
+                    img={Tikka}
                     />
 
                     <Item name="BBQ Chicken" 
                     desc="BBQ Chicken with grilled chicken."
                     price={12.50}
-                    img={BBQPizza}
+                    img={Pizza}
                     />
 
                     <Item name="BBQ Chicken" 
                     desc="BBQ Chicken with grilled chicken."
                     price={12.50}
-                    img={BBQPizza}
+                    img={Tikka}
                     />
 
                     <Item name="BBQ Chicken" 
                     desc="BBQ Chicken with grilled chicken."
                     price={12.50}
-                    img={BBQPizza}
+                    img={Pizza}
                     />
 
                     <Item name="BBQ Chicken" 
                     desc="BBQ Chicken with grilled chicken."
                     price={12.50}
-                    img={BBQPizza}
+                    img={Tikka}
                     />
 
                     <Item name="BBQ Chicken" 
                     desc="BBQ Chicken with grilled chicken."
                     price={12.50}
-                    img={BBQPizza}
+                    img={Pizza}
                     />
                     
                     <Item name="BBQ Chicken" 
                     desc="BBQ Chicken with grilled chicken."
                     price={12.50}
-                    img={BBQPizza}
+                    img={Tikka}
                     />
 
                     <Item name="BBQ Chicken" 
                     desc="BBQ Chicken with grilled chicken."
                     price={12.50}
-                    img={BBQPizza}
+                    img={Pizza}
                     />
 
                     <Item name="BBQ Chicken" 
                     desc="BBQ Chicken with grilled chicken."
                     price={12.50}
-                    img={BBQPizza}
+                    img={Tikka}
                     />
 
                 </div>
