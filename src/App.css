@@ -131,8 +131,9 @@ nav {
 
 }
 .items {
-    padding-top: 1%;
-    margin-right: 30px;
+    padding-top: 18px;
+    margin-right: 70px;
+    padding-left: 25px;
     height: 60px;   
     text-transform: uppercase;
     color: #f1f1f1;
@@ -157,17 +158,19 @@ nav {
     .list {
         flex-direction: column;
         height: auto;
+        
     }
-    .items:nth-child(1){
+    /* .items:nth-child(1){
         border-top: 1px solid rgba(255, 255, 255, 0.555);
         margin-top: 50px;
-    }
+    } */
     .items {
         width: 100%;
         border-top: 1px solid rgba(255, 255, 255, 0.555);
         text-align: center;
         margin-right: 0px;
-        padding: 20px 0;
+        /* padding: 20px 0; */
+        
         background-color: rgba(41, 38, 38, 0.979);
     }
     .btn {

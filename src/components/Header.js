@@ -1,6 +1,7 @@
 // by using rafce short cut key 
 import React from 'react';
 import Navbar from './Navbar';
+import Offer from './Offer';
 
 const Header = () => {
     return (

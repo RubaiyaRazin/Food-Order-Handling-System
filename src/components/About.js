@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import about_img from '../img/food.png';
 
 const About = () => {
@@ -32,4 +33,4 @@ const About = () => {
     )
 }
 
-export default About
+export default About;
