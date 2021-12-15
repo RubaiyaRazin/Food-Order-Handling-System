@@ -23,6 +23,7 @@ export default class MultipleItems extends Component {
     return (
         
       <div className="offer-slide">
+          <br></br><br></br>
         <h2> Exclusive </h2>
         <h1>BEST OFFER</h1>
         <Slider {...settings}>
